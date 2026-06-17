@@ -16,7 +16,7 @@
         flex-direction: column;
       }
 
-      .red,
+      /* .red,
       .orange,
       .yellow,
       .green,
@@ -25,11 +25,14 @@
       .purple {
 
         flex-basis: 100px;
-      }
+      } */
       /*
 Select all the elements that are the direct
 children of the .container class.
     */
+      .container > * {
+        flex-basis: 100px;
+      }
 
       .red {
         background-color: #eb4d4b;
